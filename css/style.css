@@ -1,0 +1,28 @@
+
+div{
+	margin-left: 30px;
+}
+.box{
+	margin:10px;
+	padding:2px;
+	border: solid black 2px;
+}
+#d1{
+	background-color: lightgreen;
+}
+#d2{
+	background-color: lightsalmon;
+}
+#d3{
+	background-color: lightpink;
+}
+ul ul{
+	display: none;
+}
+
+li:hover{
+	color:red;
+}
+li:hover >ul{
+	display:block;
+}
